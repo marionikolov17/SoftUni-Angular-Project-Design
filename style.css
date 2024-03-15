@@ -6,6 +6,10 @@
 
 :root {
     --font: "Montserrat", sans-serif;
+    --white: #fff;
+    --secondary-white: #fcfafa;
+    --main-blue: #64c4ed;
+    --secondary-blue: #4f81c7;
 }
 
 body {
