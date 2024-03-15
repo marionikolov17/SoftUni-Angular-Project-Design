@@ -1,3 +1,5 @@
+@import url('range.css');
+
 * {
   padding: 0;
   margin: 0;
@@ -32,17 +34,33 @@ nav {
 }
 
 nav a {
-    color: var(--white) !important;
+  color: var(--white) !important;
 }
 
 nav form button {
-    color: var(--white) !important;
-    border: 1px solid var(--white) !important;
-    transition: .7s ease;
+  color: var(--white) !important;
+  border: 1px solid var(--white) !important;
+  transition: 0.7s ease;
 }
 
 nav form button:hover {
-    background-color: var(--white) !important;
-    color: var(--secondary-blue) !important;
+  background-color: var(--white) !important;
+  color: var(--secondary-blue) !important;
 }
+
+/* Main - Products Page / Home */
+
+main {
+  min-height: 700px;
+  font-family: var(--font) !important;
+}
+
+.filter-section button {
+  width: 150px !important;
+}
+
+.filter-section li {
+    cursor: pointer;
+}
+
 
