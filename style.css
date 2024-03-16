@@ -1,4 +1,4 @@
-@import url('range.css');
+@import url("range.css");
 
 * {
   padding: 0;
@@ -60,7 +60,24 @@ main {
 }
 
 .filter-section li {
-    cursor: pointer;
+  cursor: pointer;
 }
 
+/* Products section */
 
+.products-section {
+  grid-template-columns: 300px 300px 300px 300px;
+  column-gap: 20px;
+  row-gap: 20px;
+  justify-content: center;
+}
+
+.products-grid {
+  grid-template-columns: 300px 300px 300px 300px;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.products-grid .card {
+  height: 250px;
+}
