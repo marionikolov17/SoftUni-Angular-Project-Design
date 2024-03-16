@@ -81,3 +81,13 @@ main {
 .products-grid .card {
   height: 250px;
 }
+
+/* Footer */
+footer {
+  font-family: var(--font) !important;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--black);
+}
