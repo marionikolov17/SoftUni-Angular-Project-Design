@@ -83,8 +83,14 @@ main {
   row-gap: 20px;
 }
 
+/* Product card */
 .product-card {
-  height: 380px !important;
+  height: 330px !important;
+  cursor: pointer;
+}
+
+.card-image {
+  height: 170px;
 }
 
 /* Footer */
