@@ -74,6 +74,7 @@ main {
   column-gap: 20px;
   row-gap: 20px;
   justify-content: center;
+  min-height: 750px;
 }
 
 .products-grid {
@@ -82,8 +83,8 @@ main {
   row-gap: 20px;
 }
 
-.products-grid .card {
-  height: 250px;
+.product-card {
+  height: 380px !important;
 }
 
 /* Footer */
