@@ -48,6 +48,10 @@ nav form button:hover {
   color: var(--secondary-blue) !important;
 }
 
+.badge-text {
+  font-size: 11px !important;
+}
+
 /* Main - Products Page / Home */
 
 main {
