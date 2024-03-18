@@ -93,6 +93,10 @@ main {
   height: 170px;
 }
 
+.product-card .title-container {
+  height: 75px;
+}
+
 /* Footer */
 footer {
   font-family: var(--font) !important;
