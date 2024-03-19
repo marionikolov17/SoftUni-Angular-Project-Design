@@ -13,12 +13,12 @@
   --secondary-blue: #4f81c7;
 }
 
-.login-section {
+.register-section {
   height: 800px;
 }
 
-.login-form {
-  height: 370px;
+.register-form {
+  height: 570px;
   width: 450px;
   font-family: var(--font) !important;
 }
@@ -27,7 +27,7 @@
   font-size: 14px;
 }
 
-.login-form button {
+.register-form button {
   width: 150px !important;
 }
 
