@@ -13,3 +13,15 @@
   --secondary-blue: #4f81c7;
 }
 
+.product-container {
+    height: 800px;
+    font-family: var(--font) !important;
+}
+
+.product-image-wrapper {
+    height: 350px;
+}
+
+.product-details-wrapper {
+    height: 350px;
+}
