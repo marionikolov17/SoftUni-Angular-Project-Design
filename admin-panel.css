@@ -69,3 +69,25 @@
 .product-item .buttons-container button {
   width: 100px !important;
 }
+
+/* Admin orders page */
+.order {
+  min-height: 60px;
+  max-height: max-content;
+}
+
+.product-order-item {
+  height: 60px;
+}
+
+.product-order-item .order-image-container {
+  width: max-content;
+}
+
+.product-order-item .order-image-container img {
+  width: 110px;
+}
+
+.finish-order button {
+  width: 140px;
+}
