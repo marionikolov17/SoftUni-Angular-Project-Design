@@ -257,7 +257,9 @@
                 name="name"
                 placeholder="Enter your product name..."
               />
+              <p class="invalid-input-message text-danger">Product name is invalid!</p>
             </div>
+
             <div class="mb-4">
               <label for="description" class="form-label fs-5"
                 >Product description</label
@@ -267,7 +269,9 @@
                 class="form-control"
                 placeholder="Enter product description..."
               ></textarea>
+              <p class="invalid-input-message text-danger">Product description is invalid!</p>
             </div>
+
             <div class="mb-4">
               <label for="imageSrc" class="form-label fs-5"
                 >Product image</label
@@ -277,10 +281,12 @@
                 type="file"
                 id="imageSrc"
               />
+              <p class="invalid-input-message text-danger">Invalid file!</p>
             </div>
+
             <div class="mb-4">
               <label for="" class="form-label fs-5">Product price</label>
-              <div class="input-group mb-4">
+              <div class="input-group">
                 <span class="input-group-text">$</span>
                 <span class="input-group-text">0.00</span>
                 <input
@@ -290,6 +296,7 @@
                   aria-label="Dollar amount (with dot and two decimal places)"
                 />
               </div>
+              <p class="invalid-input-message text-danger">Product price is invalid!</p>
             </div>
 
             <button class="btn btn-outline-primary fs-5 mt-5">Create</button>

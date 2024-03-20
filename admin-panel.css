@@ -96,3 +96,7 @@
 .admin-create-product-page form button {
   width: 150px;
 }
+
+.invalid-input-message {
+  font-size: 15px;
+}
