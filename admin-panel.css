@@ -56,3 +56,16 @@
 .admin-products-page {
   max-height: max-content;
 }
+
+.product-item {
+  height: 65px;
+  width: 100%;
+}
+
+.product-item .image-container img {
+  width: 110px;
+}
+
+.product-item .buttons-container button {
+  width: 100px !important;
+}
