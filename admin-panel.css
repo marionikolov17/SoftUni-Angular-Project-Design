@@ -12,3 +12,41 @@
   --main-blue: #64c4ed;
   --secondary-blue: #4f81c7;
 }
+
+.admin-panel-section {
+  font-family: var(--font) !important;
+  position: absolute;
+  min-height: 100%;
+}
+
+.admin-sidenav {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.admin-sidenav button {
+  width: 180px;
+  height: 50px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--black);
+}
+
+.admin-sidenav button div {
+  width: 100px;
+}
+
+.admin-sidenav button i {
+  margin: 0 3px;
+}
+
+.admin-sidenav a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.footer-text {
+  font-size: 14px;
+  text-align: center;
+}
