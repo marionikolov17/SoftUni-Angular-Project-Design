@@ -91,3 +91,8 @@
 .finish-order button {
   width: 140px;
 }
+
+/* Admin create product page */
+.admin-create-product-page form button {
+  width: 150px;
+}
