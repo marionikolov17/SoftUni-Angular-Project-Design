@@ -19,6 +19,7 @@
   min-height: 100%;
 }
 
+/* Admin side navigation */
 .admin-sidenav {
   border-right: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -49,4 +50,9 @@
 .footer-text {
   font-size: 14px;
   text-align: center;
+}
+
+/* Admin products page */
+.admin-products-page {
+  max-height: max-content;
 }
