@@ -12,3 +12,7 @@
   --main-blue: #64c4ed;
   --secondary-blue: #4f81c7;
 }
+
+.cart-page {
+    min-height: 750px;
+}
