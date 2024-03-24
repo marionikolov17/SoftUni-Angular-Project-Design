@@ -14,5 +14,19 @@
 }
 
 .cart-page {
-    min-height: 750px;
+  min-height: 800px;
+  font-family: var(--font) !important;
+}
+
+.product-row {
+  height: 160px;
+}
+
+.product-row img {
+  width: 140px;
+  height: 100px;
+}
+
+.product-row input {
+    width: 150px !important;
 }
