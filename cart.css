@@ -30,3 +30,8 @@
 .product-row input {
     width: 150px !important;
 }
+
+.order-details button {
+    height: 40px !important;
+    margin: 0 !important;
+}
